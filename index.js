@@ -12,6 +12,7 @@ import * as _twitter from './lib/providers/twitter';
 import * as _tumblr from './lib/providers/tumblr';
 import * as _dock from './lib/providers/dock';
 import * as _twitch from './lib/providers/twitch';
+import * as _linkedin from './lib/providers/linkedin';
 
 export const google = login(_google, platform);
 export const facebook = login(_facebook, platform);
@@ -19,5 +20,6 @@ export const twitter = login(_twitter, platform);
 export const tumblr = login(_tumblr, platform);
 export const dock = login(_dock, platform);
 export const twitch = login(_twitch, platform);
+export const linkedin = login(_linkedin, platform);
 
 export default login(__, platform);
